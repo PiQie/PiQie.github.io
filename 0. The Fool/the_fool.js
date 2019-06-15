@@ -3,5 +3,5 @@ function btn_1() {
 }
 
 function arcana_0() {
-    $('#arcana').fadeIn(2000);
+    $('#arcana').fadeIn(1000);
 }
