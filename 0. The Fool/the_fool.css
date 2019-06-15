@@ -1,0 +1,48 @@
+#igor_1 {
+    width: 25%;
+    position: absolute;
+    bottom: 12%;
+    right: 2%;
+}
+
+#igor_2 {
+    width:25%;
+    position: absolute;
+    top: 5%;
+    left: 1%;
+}
+
+#igor_3 {
+    width: 25%;
+    position: absolute;
+    bottom: 10%;
+    left: 27%;
+}
+
+#igor_4 {
+    width: 40%;
+    position: absolute;
+    top: 1%;
+    right: 5%;
+}
+
+#igor_btn {
+    display: block;
+    position: absolute;
+    bottom: 22.5%;
+    right: 33.5%;
+    height: 15%;
+    width: 8%;
+    transition: 3s;
+}
+
+#igor_btn:hover {
+    background-color: grey;
+}
+
+#arcana img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
