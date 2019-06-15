@@ -1,3 +1,68 @@
-#test p {
-    color: blue;
+
+* {
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#start {
+    position: relative;
+    margin: auto;
+    margin-top: 350px;
+    width: 300px;
+    text-align: center;
+    
+}
+
+#start h1 {
+    background-color: white;
+}
+
+.basic_btn {
+    background-color: darkred;
+    border: none;
+    color: white;
+    font-size: 120%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 30px;
+    transition: background-color 0.5s;
+}
+
+.basic_btn:hover {
+    background-color: red;
+}
+
+#next {
+    position: absolute;
+    width: 80px;
+    bottom: 20px;
+    right: 30px;
+}
+
+#prev {
+    position: absolute;
+    width: 80px;
+    bottom: 20px;
+    right: 200px;
+}
+
+#main {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+}
+
+.white_btn {
+    position: absolute;
+    border: none;
+    right: 30px;
+    bottom: 20px;
+    padding: 20px 30px;
+    background-color: white;
+    transition: background-color 3s;
+}
+
+.white_btn:hover {
+    background-color: grey;
 }
